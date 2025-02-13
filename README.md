@@ -1,18 +1,18 @@
 ## Contributing to open-sourced projects
 #### Please take a moment to review this document in order to make the contribution process easy and effective for everyone involved. ##This is generally the same approach you will take with any projects on Github.
 
-## Pull requests
-#### Fork the project, clone your fork, and configure the remotes:
+# Pull requests
+## Fork the project, clone your fork, and configure the remotes:
 
-# Clone your fork of the repo into the current directory
+#### Clone your fork of the repo into the current directory
         git clone https://github.com/<your-username>/contributing.git
-# Navigate to the newly cloned directory
+#### Navigate to the newly cloned directory
         cd contributing
-# Assign the original repo to a remote called "upstream"
+#### Assign the original repo to a remote called "upstream"
 
             git remote add upstream https://github.com/yourname/contributing.git
 
-### If you cloned a while ago, get the latest changes from upstream:
+#### If you cloned a while ago, get the latest changes from upstream:
         git checkout main
         git pull upstream main
 #### Create a new topic branch (off the main project development branch) to contain your feature, change, or fix:
