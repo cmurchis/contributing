@@ -19,6 +19,10 @@
         git checkout -b <topic-branch-name>
 #### Locally merge (or rebase) the upstream development branch into your topic branch:
         git pull [--rebase] upstream main
+#### Add your name to the list of contributors
+        code contributors
 #### Push your topic branch up to your fork:
+        git add .
+        git commit -m 'adding my name'
         git push origin <topic-branch-name>
 #### Open a Pull Request with a clear title and description.
